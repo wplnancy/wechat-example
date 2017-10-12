@@ -1,0 +1,18 @@
+<text class="title">微信小程序demo演示</text>
+<view class="btn-area">
+  <navigator url="/pages/sliders/sliders" hover-class="navigator-hover" class="link">swiper 滑动试图容器 </navigator>
+  <navigator url="/pages/icon/icon" hover-class="navigator-hover" class="link"> icon 图标 </navigator>
+  <navigator url="/pages/text/text" hover-class="navigator-hover" class="link"> tetx 文本 </navigator>
+
+  <navigator url="/pages/progress/progress" hover-class="navigator-hover" class="link"> progress 进度条 </navigator>
+  <navigator url="/pages/button/button" hover-class="navigator-hover" class="link"> button 按钮
+  </navigator>
+
+  <navigator url="/pages/checkbox/checkbox" hover-class="navigator-hover" class="link"> checkbox 多选项 </navigator>
+
+  <navigator url="/pages/form/form" hover-class="navigator-hover" class="link"> form 表单 </navigator>
+
+  <navigator url="/pages/input/input" hover-class="navigator-hover" class="link"> input 输入框 </navigator>
+
+  <navigator url="/pages/label/label" hover-class="navigator-hover" class="link"> label 标签 </navigator>
+</view>

@@ -1,0 +1,21 @@
+<view class="content">
+  type：有效值：text 感觉没什么区别
+  <input placeholder="type=text" type="text" value="" />
+  <input placeholder="type=number" type="number" value="" />
+  <input placeholder="type=idcard" type="idcard" value="" />
+  <input placeholder="type=digit" type="digit" value="" /> password：
+  <input type="text" password="{{false}}" placeholder="请输入密码" />
+  <input type="text" password="{{true}}" placeholder="请输入密码" /> placeholder：
+  <input placeholder="占位符" /> disable:
+  <input placeholder="disable={{false}}" disabled='{{false}}' />
+  <input placeholder="disable={{true}}" disabled='{{true}}' /> 最大长度：
+  <input maxlength="10" placeholder="maxlength='10'最多长度10字符" />
+  <input maxlength="5" placeholder="maxlength='5'最多长度5字符" />
+  <input maxlength="-1" placeholder="值为-1，则不限制长度" /> bindinput="当内容改变"
+  <input bindinput="bindinput" /> bindfocus:当获取焦点
+  <input bindfocus="bindfocus" /> bindblur：当失去焦点触发
+  <input bindblur="bindblur" /> 内容：
+  <view style="color:blue">
+    {{log}}
+  </view>
+</view>

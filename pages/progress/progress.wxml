@@ -1,0 +1,16 @@
+<view class="content">
+    <text class="con-text">不展示百分比</text>
+    <progress class="con-pro" percent="77"/>
+    <text class="con-text">展示百分比(百分比字体样式通过class控制)</text>
+    <progress class="con-pro" percent="97" show-info/>
+    <text class="con-text">改变进度条线的宽度:15px</text>
+    <progress class="con-pro" percent="47" stroke-width="15"/>
+    <text class="con-text">改变进度条颜色(#)：黑色</text>
+    <progress class="con-pro" percent="67" color="#000000"/>
+    <text class="con-text">改变进度条颜色(已定义)：橘色</text>
+    <progress class="con-pro" percent="67" color="orange"/>
+    <text class="con-text">几个属性叠加</text>
+    <progress class="con-pro" percent="87" color="lightgreen" show-info stroke-width="30"/>
+    <text class="con-text">看我开的飞起</text>
+    <progress class="con-pro" active percent="87" color="lightgreen" show-info stroke-width="20"/>
+</view>

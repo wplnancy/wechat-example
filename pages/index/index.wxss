@@ -1,0 +1,16 @@
+.title {
+  text-align: center;
+  display: block;
+}
+/* 修改默认 navigator 点击态  */
+.navigator-hover {
+    color:royalblue;
+}
+
+.link {
+  color: cadetblue;
+  text-align: center;
+  line-height: 20px;
+  font-size: 20px;
+  margin: 10px 0;
+}

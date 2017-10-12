@@ -1,0 +1,68 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">表单控件</text>
+  </view>
+  <form class="page__bd" catchsubmit="formSubmit" catchreset="formReset">
+    <view class="section">
+      <view class="section__title">您的姓名：</view>
+      <input name="name" placeholder="姓名：" />
+    </view>
+    <view class="section section_gap">
+      <view class="section__title">性别：</view>
+      <radio-group name="gender">
+        <label>
+          <radio value="男" />男</label>
+        <label>
+          <radio value="女" />女</label>
+        <label>
+          <radio value="其他" />其他</label>
+      </radio-group>
+    </view>
+    <view class="section section_gap">
+      <view class="section__title">年龄：</view>
+      <slider value="18" name="age" show-value></slider>
+    </view>
+    <view class="section section_gap">
+      <view class="section__title">擅长的开发语言：</view>
+      <checkbox-group name="technology">
+        <label>
+          <checkbox value="Java" />Java</label>
+        <label>
+          <checkbox value="JavaScript" />JavaScript</label>
+        <label>
+          <checkbox value="C++" />C++</label>
+        <label>
+          <checkbox value="C" />C</label>
+        <label>
+          <checkbox value="Object-C" />Object-C</label>
+        <label>
+          <checkbox value="C#" />C#</label>
+        <label>
+          <checkbox value="Python" />Python</label>
+        <label>
+          <checkbox value="PHP" />PHP</label>
+        <label>
+          <checkbox value="Ruby" />Ruby</label>
+        <label>
+          <checkbox value="Swift" />Swift</label>
+      </checkbox-group>
+    </view>
+    <view class="section section_gap">
+      <view class="section__title">是否公开信息：</view>
+      <switch name="isPublic" />
+    </view>
+    <view class="btn-area">
+      <button formType="submit">Submit</button>
+      <button formType="reset">Reset</button>
+    </view>
+    <!-- 由于model 组件即将过期，推荐使用  wx,showModal -->
+    <!-- <modal class="modal" hidden="{{modalHidden}}" no-cancel bindconfirm="modalChange">
+      <view> 您填写的表单如下 </view>
+      <view> 姓名:{{name}} </view>
+      <view> 性别：{{gender}} </view>
+      <view> 年龄：{{age}} </view>
+      <view> 擅长的开发语言：{{technology}} </view>
+      <view> 是否公开信息：{{isPublic}} </view>
+    </modal> -->
+  </form>
+</view>

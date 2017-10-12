@@ -1,0 +1,11 @@
+.content{
+  padding-top: 20px;
+}
+.con-text{
+  display: block;
+  padding-bottom: 10px;
+}
+.con-pro{
+  padding-bottom: 30px;
+  color: cornflowerblue;
+}

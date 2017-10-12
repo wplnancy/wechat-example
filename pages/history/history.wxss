@@ -1,0 +1,6 @@
+/* pages/history/history.wxss */
+.title {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}

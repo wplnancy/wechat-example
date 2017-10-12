@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/history/history",
+    "pages/sliders/sliders",
+    "pages/icon/icon",
+    "pages/text/text",
+    "pages/progress/progress",
+    "pages/button/button",
+    "pages/checkbox/checkbox",
+    "pages/form/form",
+    "pages/input/input",
+    "pages/label/label"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "演示DEMO",
+    "navigationBarTextStyle": "black"
+  }
+}
