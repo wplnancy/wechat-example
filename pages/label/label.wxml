@@ -1,0 +1,56 @@
+<view class="content">
+  <text class="section__title">-------label绑定checkbox(内嵌)-------</text>
+  <checkbox-group bindchange="checkboxChange">
+    <view class="label-1" wx:for="{{checkboxItems}}">
+      <label>
+        <checkbox hidden value="{{item.name}}" checked="{{item.checked}}"></checkbox>
+        <view class="label-1__icon">
+          <view class="label-1__icon-checked" style="opacity:{{item.checked ? 1: 0}}"></view>
+        </view>
+        <text class="label-1__text">{{item.value}}</text>
+      </label>
+    </view>
+  </checkbox-group>
+</view>
+<view class="content">
+  <text class="section__title">---------label绑定radio(for)---------</text>
+  <radio-group class="group" bindchange="radioChange">
+    <view class="label-2" wx:for="{{radioItems}}">
+      <radio id="{{item.name}}" hidden value="{{item.name}}" checked="{{item.checked}}"></radio>
+      <view class="label-2__icon">
+        <view class="label-2__icon-checked" style="opacity:{{item.checked ? 1: 0}}"></view>
+      </view>
+      <label class="label-2__text" for="{{item.name}}"><text>{{item.name}}</text></label>
+    </view>
+  </radio-group>
+</view>
+<view class="content">
+  <text class="section__title">-----------label绑定button-----------</text>
+  <label for="buttontest">label绑定button(for)</label>
+  <button id="buttontest" bindtap="testLabelBindButton_1">Fly-1</button>
+  <label>
+    <text>label绑定button(内嵌)</text>
+    <button bindtap="testLabelBindButton_2">Fly-2</button>
+  </label> 
+</view>
+<view class="content">
+  <text class="section__title">-----------label绑定switch-----------</text>
+  <view>
+    <label for="switchtest">label绑定switch( for)</label>
+    <switch id="switchtest" checked/> 
+  </view>
+  <view>
+    <label>
+      <text>label绑定switch(内嵌)</text>
+      <switch/>
+    </label>
+  </view>
+    <view>
+    <label>
+      <text>label绑定switch(内嵌)</text>
+      <switch/>
+      <switch/>
+      <switch/>
+    </label>
+  </view>
+</view>

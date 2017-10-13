@@ -1,0 +1,43 @@
+<view class="section section">
+  <text class="title">switch style</text>
+  <view class="body-view">
+    <switch checked bindchange="switch1Change" />
+  </view>
+</view>
+<view class="section section">
+  <text class="title">switch style</text>
+  <view class="body-view">
+    <switch bindchange="switch2Change" />
+  </view>
+</view>
+<view class="section section">
+  <text class="title">checkbox style</text>
+  <view class="body-view">
+    <switch type="checkbox" checked bindchange="switch1Change" />
+  </view>
+</view>
+<view class="section section">
+  <text class="title">checkbox style</text>
+  <view class="body-view">
+    <switch type="checkbox" bindchange="switch2Change" />
+  </view>
+</view>
+<view class="section section">
+  <text class="title">西游记里都有谁</text>
+  <view class="body-view">
+    <switch type="checkbox" checked bindchange="switch2Change" />
+    <text class="title">牛魔王</text>
+  </view>
+  <view class="body-view">
+    <switch type="checkbox" checked bindchange="switch2Change" />
+    <text class="title">孙悟空</text>
+  </view>
+  <view class="body-view">
+    <switch type="checkbox" checked bindchange="switch2Change" />
+    <text class="title">猪八戒</text>
+  </view>
+  <view class="body-view">
+    <switch type="checkbox" bindchange="switch2Change" />
+    <text class="title">旗木卡卡西</text>
+  </view>
+</view>

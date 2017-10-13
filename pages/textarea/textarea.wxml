@@ -1,0 +1,6 @@
+<view class="content">
+  placeholder：
+  <textarea placeholder="占位符" />
+  <textarea placeholder="占位符 改变样式style" placeholder-style="color:blue" />
+  <textarea placeholder="占位符 改变样式class" placeholder-class="placeholdText" />
+</view>

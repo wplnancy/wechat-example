@@ -9,7 +9,7 @@
 	"compileType": "weapp",
 	"libVersion": "1.5.4",
 	"appid": "touristappid",
-	"projectname": "calc",
+	"projectname": "a",
 	"condition": {
 		"weapp": {
 			"current": -1,

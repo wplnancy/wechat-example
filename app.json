@@ -11,7 +11,12 @@
     "pages/checkbox/checkbox",
     "pages/form/form",
     "pages/input/input",
-    "pages/label/label"
+    "pages/label/label",
+    "pages/picker/picker",
+    "pages/radio/radio",
+    "pages/slider/slider",
+    "pages/switch/switch",
+    "pages/textarea/textarea"
   ],
   "window": {
     "backgroundTextStyle": "light",
