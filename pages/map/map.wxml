@@ -1,0 +1,5 @@
+
+<view>
+    <button type="primary" bindtap="showLocation">获取当前地理位置并在地图中打开</button>
+</view>
+<map longitude="{{location.longitude}}" latitude="{{location.latitude}}" markers="{{markers}}" covers="{{covers}}"></map>

@@ -1,0 +1,9 @@
+<!--监听button点击事件-->
+<button bindtap="listenerButton">点击显示视频组件</button>
+<!--视频组件src资源地址，binderror为监听错误信息-->
+<video
+ src="https://vfine.oss-cn-beijing.aliyuncs.com/video%2FBDQjAuEA6w3TJqddP5p6f9ygKsSLxw7ALWaSjEzgECOJVbPF5r.mp4"
+ style="width: 100%; height: 100%"
+ hidden="{{hiddenVideo}}"
+ binderror="listenerVideo"
+ binderror="binderror" />

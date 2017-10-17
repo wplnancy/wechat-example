@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="content">
+  <text class="showfunc">Toast功能</text>
+  <view class="con-button">
+    <button class="button-left" bindtap="showToast">展示Toast</button>
+    <button class="button-right" bindtap="hideToast">隐藏Toast</button>
+  </view>
+</view>

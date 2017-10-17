@@ -1,0 +1,12 @@
+/**index.wxss**/
+.con-button{
+  display: flex;
+  flex-direction: row;
+  padding-top: 10%;
+}
+.showfunc{
+  padding-top:10%;
+  display: block;
+  text-align: center;
+  color: green;
+}

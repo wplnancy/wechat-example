@@ -1,0 +1,11 @@
+<view class="container">
+ <button hover-class="but-hover" bindtap="sync">同步存储后获取data1</button>
+ <button hover-class="but-hover" bindtap="asyn">异步存储后获取data2</button>
+ <button hover-class="but-hover" bindtap="update">修改缓存data1</button>
+ <button hover-class="but-hover" bindtap="del_one">删除缓存data1</button>
+ <button hover-class="but-hover" bindtap="del_all">删除所有缓存数据</button>
+  <text>data1:{{data1}}</text> 
+  <text>data2:{{data2}}</text> 
+  <text>当前缓存信息:
+{{det}}</text> 
+</view>

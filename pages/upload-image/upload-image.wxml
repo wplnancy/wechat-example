@@ -1,0 +1,13 @@
+<template name="imgItem">
+
+  <image src="{{item}}"></image>
+</template>
+
+<button bindtap="chooseImg">上传图片</button>
+<block wx:for="{{tempFilePaths}}" wx:key="{{index}}">
+  <view>
+    <template is="imgItem" data="{{item}}" />
+    <button bindtap="getImageInfo" id="{{item}}">获取图片信息</button>
+    <text>{{info}}</text>
+  </view>
+</block>

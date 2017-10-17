@@ -16,12 +16,24 @@
     "pages/radio/radio",
     "pages/slider/slider",
     "pages/switch/switch",
-    "pages/textarea/textarea"
+    "pages/textarea/textarea",
+    "pages/action-sheet/action-sheet",
+    "pages/modal/modal",
+    "pages/toast/toast",
+    "pages/audio/audio",
+    "pages/image/image",
+    "pages/video/video",
+    "pages/map/map",
+    "pages/canvas/canvas",
+    "pages/storage/storage",
+    "pages/upload-image/upload-image",
+    "pages/pulldownrefresh/pulldownrefresh"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "演示DEMO",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
   }
 }

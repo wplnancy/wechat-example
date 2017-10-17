@@ -1,0 +1,12 @@
+<view class="page">
+  <view class="page__hd">
+    <text class="page__title">modal</text>
+    <text class="page__desc">模式对话框</text>
+  </view>
+  <view class="page__bd">
+    <view class="btn-area">
+      <button type="default" bindtap="showModel1">简单设定的modal</button>
+      <button type="default" bindtap="showModel2">全部自定义设定的modal2</button>
+    </view>
+  </view>
+</view>

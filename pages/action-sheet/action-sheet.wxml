@@ -1,0 +1,1 @@
+<button type="primary" bindtap="actionSheetTap">弹出ActionSheet</button>

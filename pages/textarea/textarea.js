@@ -1,66 +1,27 @@
 // pages/textarea/textarea.js
 Page({
 
-  /**
-   * 页面的初始数据
-   */
-  data: {
-  
+  //行高改变时
+  bindlinechange: function (e) {
+    var height = e.detail.height;
+    var heightRpx = e.detail.heightRpx;
+    var lineCount = e.detail.lineCount;
+    this.setData({
+      log: "height=" + height + "  |  heightRpx=" + heightRpx + "  |  lineCount=" + lineCount
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
+  //文本失去焦点
+  bindblur: function (e) {
+    var value = e.detail.value;
+    this.setData({
+      log: "bindblur失去改变.获取textarea值=" + value
+    })
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
+  //文本获取焦点
+  bindfocus: function (e) {
+    var value = e.detail.value;
+    this.setData({
+      log: "bindfocus获取焦点,获取textarea值=" + value
+    })
   }
 })

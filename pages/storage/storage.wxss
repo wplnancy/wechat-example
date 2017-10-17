@@ -1,0 +1,16 @@
+page{
+  height: 100%;
+  width:100%;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  width:500rpx;
+  margin: 10rpx 0;
+}
+.but-hover{
+  background-color: #5CB85C;
+}

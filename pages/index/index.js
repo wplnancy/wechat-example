@@ -65,6 +65,50 @@ Page({
       {
         url: '../textarea/textarea',
         name: 'textarea 多行输入框'
+      },
+      {
+        url: '../action-sheet/action-sheet',
+        name: 'action-sheet 显示操作菜单'
+      },
+      {
+        url: '../modal/modal',
+        name: 'modal 显示模态框'
+      },
+      {
+        url: '../toast/toast',
+        name: 'toast 显示消息提示'
+      },
+      {
+        url: '../audio/audio',
+        name: 'audio 音频'
+      },
+      {
+        url: '../image/image',
+        name: 'image 图'
+      },
+      {
+        url: '../video/video',
+        name: 'video 视频'
+      },
+      {
+        url: '../map/map',
+        name: 'map 地图'
+      },
+      {
+        url: '../canvas/canvas',
+        name: 'canvas 画布'
+      },
+      {
+        url: '../storage/storage',
+        name: 'storage 存储'
+      },
+      {
+        url: '../upload-image/upload-image',
+        name: '上传图片'
+      },
+      {
+        url: '../pulldownrefresh/pulldownrefresh',
+        name: '下拉刷新'
       }
     ]
   },
