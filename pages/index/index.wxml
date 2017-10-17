@@ -1,4 +1,7 @@
+
 <text class="title">微信小程序demo演示</text>
- <view class="btn-area" wx:for="{{linkList}}" wx:key="{{index}}">
-  <navigator url="{{item.url}}" hover-class="navigator-hover" class="link">{{item.name}}</navigator>
+ <view class="rank-item" wx:for="{{linkList}}" wx:key="{{index}}">
+  
+  <navigator url="{{item.url}}" class="text">{{item.name}}</navigator>
+  <view class='arrow'></view>
 </view> 
